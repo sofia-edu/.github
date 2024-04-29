@@ -86,6 +86,14 @@
   - `code` (string, required)
   - `description` (string)
 
+### CRUD API for Assigning courses to programs
+- **Endpoint:** `/assign-courses`
+- **Methods:** GET, POST, PUT, DELETE
+- **Payload:**
+  - `name` (string, required)
+  - `code` (string, required)
+  - `description` (string)
+
 ## Instructor Management
 
 ### CRUD API for Instructors
